@@ -1,0 +1,78 @@
+{
+  "name": "byte-brawl-code-vs-cure",
+  "version": "2.0.0",
+  "description": "A modern, enhanced digital gladiator arena where viruses battle antivirus software in a cyberpunk-themed programming challenge game.",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx serve .",
+    "dev": "npx live-server --port=8000",
+    "build": "echo 'No build process required - static HTML/CSS/JS application'",
+    "test": "echo 'No tests specified'",
+    "lint": "echo 'No linting configured'"
+  },
+  "keywords": [
+    "game",
+    "cyberpunk",
+    "virus",
+    "antivirus",
+    "battle",
+    "arena",
+    "programming",
+    "challenge",
+    "html5",
+    "canvas",
+    "javascript",
+    "css3",
+    "modern-ui",
+    "responsive",
+    "playnexus"
+  ],
+  "author": {
+    "name": "NexusHub",
+    "email": "support@nexushub.org",
+    "url": "https://playnexus.org"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nexushub/byte-brawl-code-vs-cure.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nexushub/byte-brawl-code-vs-cure/issues"
+  },
+  "homepage": "https://playnexus.org/tools/byte-brawl",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "Chrome >= 80",
+    "Firefox >= 75",
+    "Safari >= 13",
+    "Edge >= 80"
+  ],
+  "devDependencies": {
+    "serve": "^14.2.0",
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {},
+  "files": [
+    "index.html",
+    "index.js",
+    "styles.css",
+    "components/",
+    "assets/",
+    "README.md"
+  ],
+  "metadata": {
+    "category": "Gaming & Entertainment",
+    "platform": "Web",
+    "framework": "Vanilla JavaScript",
+    "ui": "Custom CSS3 with modern design system",
+    "audio": "HTML5 Audio API",
+    "graphics": "HTML5 Canvas",
+    "responsive": true,
+    "accessibility": true,
+    "performance": "60fps optimized"
+  }
+} 
